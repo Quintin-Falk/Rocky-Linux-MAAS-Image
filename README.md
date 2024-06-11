@@ -7,7 +7,7 @@ The first part of this project was creating a local environment to test creating
 
 Installed ubuntu onto a desktop following the directions from the ubuntu website
 	
- -https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
+ 	-https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
 
 Installed multipass on ubuntu desktop
 	-sudo snap install multipass 
