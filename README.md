@@ -10,6 +10,7 @@ Installed ubuntu onto a desktop following the directions from the ubuntu website
  	-https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
 
 Installed multipass on ubuntu desktop
+
 	-sudo snap install multipass 
 
 Created a MAAS instance with the yaml file given at https://raw.githubusercontent.com/canonical/maas-multipass/main/maas.yml
