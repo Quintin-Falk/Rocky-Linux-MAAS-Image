@@ -6,7 +6,8 @@ Creating the local environment:
 The first part of this project was creating a local environment to test creating the "Rocky Linux" image within MAAS. This was done through an ubuntu desktop and used an lxd host to creat VMs within MAAS. VMs were then composed, deployed, and tested. 
 
 Installed ubuntu onto a desktop following the directions from the ubuntu website
-	-https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
+	
+ -https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
 
 Installed multipass on ubuntu desktop
 	-sudo snap install multipass 
