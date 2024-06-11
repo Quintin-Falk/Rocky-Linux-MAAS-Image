@@ -70,8 +70,8 @@ The next part of the project was creating the "Rocky Linux" image within MAAS, s
 
 <h4>-Once in MAAS UI, compose a machine with the host</h4>
 
-<h4>Deploy the machine by choosing the "Custom Image" option and then choosing "Rocky Linux"</h4>
+<h4>-Deploy the machine by choosing the "Custom Image" option and then choosing "Rocky Linux"</h4>
 
-</h4>Using cloud-user, shell into the the newly deployed machine</h4>
+<h3>Using cloud-user, shell into the the newly deployed machine</h3>
 
 	ssh cloud-user@<machine ip>
