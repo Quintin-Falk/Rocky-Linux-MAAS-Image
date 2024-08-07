@@ -7,11 +7,7 @@ The next part of the project was creating the "Rocky Linux" image within MAAS, s
 
 <h3>Install packages using apt, clone Rocky 9 github repository, and make the image</h3>
 
-	sudo apt install qemu-utils
-	sudo apt install libnbd-bin
-	sudo apt install nbdkit
-	sudo apt install fuse2fs
- 	sudo apt install make
+	sudo apt install qemu-utils libnbd-bin nbdkit fuse2fs make curl
   	curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
    	sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main" -y
     	sudo apt-get update && sudo apt-get install packer -y
