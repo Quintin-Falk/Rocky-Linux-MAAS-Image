@@ -12,7 +12,7 @@ The next part of the project was creating the "Rocky Linux" image within MAAS, s
    	sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main" -y
     	sudo apt-get update && sudo apt-get install packer -y
     	git clone https://github.com/canonical/packer-maas.git
-	cd packer-maas/ubuntu
+	cd packer-maas/rocky
  	sudo make
 
 <h4>-While logged into root user, use "<Profile> maas boot-resources create" to create your image within the maas environment. Using the name "custom/rocky9", title "Rocky Linux", architecture "amd64/generic", base_image "rhel/9" filetype "tgz" and the content "rocky9.tar.gz"(the file made earlier using "make"</h4>
