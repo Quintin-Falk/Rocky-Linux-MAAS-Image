@@ -15,7 +15,7 @@ The next part of the project was creating the "Rocky Linux" image within MAAS, s
 	cd packer-maas/rocky9
  	sudo make
 
-<h4>-While logged into root user, use "<Profile> maas boot-resources create" to create your image within the maas environment. Using the name "custom/rocky9", title "Rocky Linux", architecture "amd64/generic", base_image "rhel/9" filetype "tgz" and the content "rocky9.tar.gz"(the file made earlier using "make"</h4>
+<h4>-While logged into root user, use "<Profile> maas boot-resources create" to upload your image to the maas environment.</h4>
 
 	sudo maas <Profile> boot-resources create \
     name='custom/rocky9' title='Rocky Linux' \
