@@ -26,9 +26,9 @@ The next part of the project was creating the "Rocky Linux" image within MAAS, s
 
 **<h2>Testing:</h2>**
 
-<h4>-Once in MAAS UI, compose a machine with the host</h4>
+<h5>-Once in MAAS UI, compose a machine with the host</h5>
 
-<h4>-Deploy the machine by choosing the "Custom Image" option and then choosing "Rocky Linux"</h4>
+<h5>-Deploy the machine by choosing the "Custom Image" option and then choosing "Rocky Linux"</h5>
 
 <h3>Using cloud-user, shell into the the newly deployed machine</h3>
 
