@@ -3,7 +3,7 @@
 <h2>Making the "Rocky Linux" image</h2>
 
 **Creating the custom image "Rocky Linux":**
-The next part of the project was creating the "Rocky Linux" image within MAAS, so that it could be deployed in machines. This was done with "make" and the "packer-maas" github repository. A slight problem that comes up when creating these machines is the sshd_config file does not have Password Authentication enabled. Therefore, you have to sign in as a cloud-user. 
+The next part of the project was creating the "Rocky Linux" image within MAAS, so that it could be deployed in machines. This was done with "make" and the "packer-maas" github repository.
 
 <h3>Install packages using apt, clone Rocky 9 github repository, and make the image</h3>
 
