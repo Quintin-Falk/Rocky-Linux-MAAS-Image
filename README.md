@@ -9,20 +9,20 @@ The next part of the project was creating the "Rocky Linux" image within MAAS, s
 
 	wget https://raw.githubusercontent.com/Quintin-Falk/Rocky-Linux-MAAS-Image/main/rocky_linux.sh && chmod +x new_script.sh && ./rocky_linux.sh
 
-<h4>-While logged into root user, use "<Profile> maas boot-resources create" to upload your image to the maas environment.</h4>
+While logged into root user, use "<Profile> maas boot-resources create" to upload your image to the maas environment.
 
 	sudo maas <Profile> boot-resources create \
     name='custom/rocky9' title='Rocky Linux' \
     architecture='amd64/generic' base_image='rhel/9' filetype='tgz' \
     content@=rocky9.tar.gz
 
-<h4>-Login to MAAS UI and look in the images section, there should be a "Rocky Linux" choice available in the custom images section</h4>
+Login to MAAS UI and look in the images section, there should be a "Rocky Linux" choice available in the custom images section
 
 **<h2>Testing:</h2>**
 
-<h5>-Once in MAAS UI, compose a machine with the host</h5>
+Once in MAAS UI, compose a machine with the host
 
-<h5>-Deploy the machine by choosing the "Custom Image" option and then choosing "Rocky Linux"</h5>
+Deploy the machine by choosing the "Custom Image" option and then choosing "Rocky Linux"
 
 <h3>Using cloud-user, shell into the the newly deployed machine</h3>
 
