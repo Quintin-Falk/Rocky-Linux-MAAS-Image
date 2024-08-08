@@ -7,7 +7,7 @@ The next part of the project was creating the "Rocky Linux" image within MAAS, s
 
 <h3>Install packages using apt, clone Rocky 9 github repository, and make the image</h3>
 
-	wget https://raw.githubusercontent.com/Quintin-Falk/Rocky-Linux-MAAS-Image/main/rocky_linux.sh && chmod +x new_script.sh && ./rocky_linux.sh
+	wget https://raw.githubusercontent.com/Quintin-Falk/Rocky-Linux-MAAS-Image/main/rocky_linux.sh && chmod +x  rocky_linux.sh && ./rocky_linux.sh
 
 While logged into root user, use "<Profile> maas boot-resources create" to upload your image to the maas environment.
 
